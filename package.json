@@ -1,0 +1,42 @@
+{
+	"name": "theme-dannysmith",
+	"version": "0.1.0",
+	"displayName": "DannySmith Theme",
+	"description": "Danny's theme, by Danny",
+	"publisher": "dannysmith",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dannysmith/dannysmith-vscode"
+	},
+	"galleryBanner": {
+		"color": "#193549",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"VSCode",
+		"Themes"
+	],
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "DannySmith",
+				"uiTheme": "vs-dark",
+				"path": "./theme/dannysmith.json"
+			}
+		]
+	},
+	"dependencies": {
+		"nodemon": "^1.12.0",
+		"vsce": "^1.30.0"
+	}
+}
