@@ -4,10 +4,10 @@
   "type": "dark",
   "colors": {
     // activityBar
-    "activityBar.background": "#122738",
+    "activityBar.background": "#122739",
     "activityBar.border": "#0d3a58",
     "activityBar.dropBackground": "#0d3a58",
-    "activityBar.foreground": "#aaa",
+    "activityBar.foreground": "#fff",
     "activityBarBadge.background": "#ffc600",
     "activityBarBadge.foreground": "#000",
     // badge
@@ -18,7 +18,7 @@
     "button.foreground": "#fff",
     "button.hoverBackground": "#ff9d00",
     // contrast
-    "contrastActiveBorder": "#ffffff00",
+    "contrastActiveBorder": null,
     "contrastBorder": "#ffffff00",
     // debug
     "debugExceptionWidget.background": "#193549",
@@ -565,13 +565,6 @@
       }
     },
     {
-      "name": "[MARKDOWN] - Heading Punctuation",
-      "scope": "punctuation.definition.heading.markdown",
-      "settings": {
-        "foreground": "#e1efff"
-      }
-    },
-    {
       "name": "[MARKDOWN] - Heading Name Section",
       "scope": [
         "entity.name.section.markdown",
@@ -751,6 +744,20 @@
       "scope": "variable.other.php",
       "settings": {
         "foreground": "#ffc600"
+      }
+    },
+    // These are a slightly off colour, so they can be addressed with custom CSS `.mtk17`.
+    {
+      "name": "Use Fira Code Font",
+      "scope": [
+        "keyword.operator.comparison",
+        "source.ruby punctuation.separator.key-value",
+        "punctuation.definition.heading.markdown",
+        "keyword.operator.logical",
+        "keyword.operator.assignment.augmented.ruby"
+      ],
+      "settings": {
+        "foreground": "#ffc601"
       }
     },
     {

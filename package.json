@@ -4,7 +4,6 @@
 	"displayName": "DannySmith Theme",
 	"description": "Danny's theme, by Danny",
 	"publisher": "dannysmith",
-	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/dannysmith/dannysmith-vscode"
