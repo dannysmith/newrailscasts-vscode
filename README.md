@@ -1,4 +1,4 @@
-# DannySmith Theme for VS Code
+# New RailsCasts Theme for VSCode
 
 A theme for VS Code. The code and structure was lifted from Wes Bos' [awesome Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode/), and consiquently has a lot in common. The color scheme is loosley based on [Ryan Bates](https://twitter.com/rbates)' railscasts theme for TextMate.
 
